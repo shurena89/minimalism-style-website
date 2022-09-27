@@ -6,3 +6,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
+.navbar, footer{
+    background-color: $primary-color;
+    margin: 1rem;
+    font-size: 1.2rem;
+
+    .navbar-brand,h2, p {
+        color: #ffff;
+        font-size: 1.5rem;
+    }
+    .navbar-brand:hover, h2:hover {
+        color: $secondary-color;
+    }
+    .bi-circle-square {
+        color: #ffff;
+        font-size: 1.5rem;
+    }
+    .bi-circle-square:hover {
+            color: $secondary-color;
+        }
+    .nav-link {
+            color: #ffff;
+        }
+    
+        .nav-link:hover {
+            color: $secondary-color;
+        }
+}
+
+
+
+
