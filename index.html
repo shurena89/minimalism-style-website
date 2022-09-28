@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card mb-lg-2">
+                <div class="card">
                     <img src="./images/long1.jpg" alt="img" class="card-img">
                 </div>
             </div>
@@ -103,6 +103,7 @@
 <section id="section3">
     <div class="container-fluid mt-lg-4 mt-md-2">
         <div class="row row-cols-1 row-cols-md-3 g-2">
+            <!--2 small images-->
             <div class="col-md-3">
                 <div class="card mb-lg-2">
                     <img src="./images/small7.jpg" alt="img" class="card-img">
@@ -111,11 +112,13 @@
                     <img src="./images/small8.jpg" alt="img" class="card-img">
                 </div>
             </div>
+            <!--one long img-->
             <div class="col-md-3">
-                <div class="card mb-lg-2">
-                    <img src="./images/long2.jpg" alt="img" class="card-img">
+                <div class="card">
+                    <img src="./images/long2.jpg" alt="img" class="card-img img-fluid">
                 </div>
             </div>
+            <!--one big img-->
             <div class="col-md-6">
                 <div class="card">
                     <img src="./images/larg3.jpg" alt="img" class="card-img">
@@ -127,30 +130,54 @@
 <!--Footer-->
 <footer>
     <div class="container">
-        <div class="row text-center d-flex justify-content-center pt-5">
-            <div class="col-lg-3 col-md-2">
+        <div class="row text-center d-flex justify-content-center pt-5 mb-4 mb-md-4">
+            <!--Social Media Links-->
+            <div class="col-lg-3 col-md-2" id="social-icons">
                 <h2 >
-                    Some information
+                    Follow Us:
                 </h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <section class="text-center mb-5">
+                    
+                    <a href="#" class="text-white me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    
+                </section>
             </div>
+            <!--Email address-->
             <div class="col-lg-3 col-md-2">
                 <h2>
-                    text in footer
+                    Contact Us:
                 </h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <p><i class="fas fa-envelope mr-3"></i>  info@example.com</p>  
+                
             </div>
+            <!--Phone number-->
             <div class="col-lg-3 col-md-2">
                 <h2>
-                    text in footer
+                    Get in Touch:
                 </h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <p><i class="fas fa-phone mr-3"></i> + 123 456-789 10</p>
             </div>
+            <!--Subscribe-->
             <div class="col-lg-3 col-md-2">
                 <h2>
-                    text in footer
+                    Subscribe:
                 </h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <div class="form-outline">
+                    <input type="email" id="typeEmail" class="form-control" />
+                    
+                </div>
+            </div>
+            <div class="text-center p-3 border-top border-white">
+                <p>© 2022 Copyright:</p> 
+                <a class="text-white" href="#">Art Website</a>
             </div>
         </div>
     </div>

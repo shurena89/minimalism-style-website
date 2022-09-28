@@ -11,9 +11,10 @@
     margin: 1rem;
     font-size: 1.2rem;
 
-    .navbar-brand,h2, p {
+    .navbar-brand,h2{
         color: #ffff;
         font-size: 1.5rem;
+        font-family: $headers;
     }
     .navbar-brand:hover, h2:hover {
         color: $secondary-color;
@@ -29,11 +30,23 @@
             color: #ffff;
         }
     
-        .nav-link:hover {
+        .nav-link:hover, i:hover {
             color: $secondary-color;
         }
 }
 
+p{
+    color: #ffff;
+    font-size: 1rem;
+    font-family: $regular-text;
+    i{
+        font-size: 18px;
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
 
 
 

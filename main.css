@@ -14,9 +14,10 @@
   margin: 1rem;
   font-size: 1.2rem;
 }
-.navbar .navbar-brand, .navbar h2, .navbar p, footer .navbar-brand, footer h2, footer p {
+.navbar .navbar-brand, .navbar h2, footer .navbar-brand, footer h2 {
   color: white;
   font-size: 1.5rem;
+  font-family: "Comfortaa", cursive;
 }
 .navbar .navbar-brand:hover, .navbar h2:hover, footer .navbar-brand:hover, footer h2:hover {
   color: #ffa087;
@@ -31,6 +32,19 @@
 .navbar .nav-link, footer .nav-link {
   color: white;
 }
-.navbar .nav-link:hover, footer .nav-link:hover {
+.navbar .nav-link:hover, .navbar i:hover, footer .nav-link:hover, footer i:hover {
   color: #ffa087;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+p i {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none !important;
 }/*# sourceMappingURL=main.css.map */
