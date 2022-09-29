@@ -60,4 +60,11 @@ a:hover {
 
 .card-img-overlay:hover {
   opacity: 0;
+}
+
+.dark-mode {
+  background-color: black;
+}
+.dark-mode .navbar, .dark-mode footer {
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */
