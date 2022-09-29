@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
+
+
 .navbar, footer{
     background-color: $primary-color;
     margin: 1rem;
@@ -47,6 +49,20 @@ p{
 a {
     text-decoration: none !important;
 }
+a:hover{
+    color: $secondary-color;
+}
+
+.card-img-overlay {
+    background-color: $primary-color;
+    opacity: 0.4;
+    
+}
+.card-img-overlay:hover{
+    opacity: 0;
+}
+
+
 
 
 

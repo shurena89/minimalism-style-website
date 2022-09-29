@@ -47,4 +47,17 @@ p i {
 
 a {
   text-decoration: none !important;
+}
+
+a:hover {
+  color: #ffa087;
+}
+
+.card-img-overlay {
+  background-color: #1d35a1;
+  opacity: 0.4;
+}
+
+.card-img-overlay:hover {
+  opacity: 0;
 }/*# sourceMappingURL=main.css.map */
